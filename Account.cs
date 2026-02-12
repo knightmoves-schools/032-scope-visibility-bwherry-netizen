@@ -1,6 +1,22 @@
 ﻿namespace knightmoves;
 
 public class Account {
-   // Add your code here
+
+      public string Name = "William";
+         
+      
+
+      private string ChangeName ()
+      {
+         Name = "Dave";
+         
+         return Name;
+         
+      }
+
+
+
+   
 }
+
 
