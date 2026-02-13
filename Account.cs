@@ -2,7 +2,7 @@
 
 public class Account {
 
-      public string[] Name = ("William", "Afton");
+      public string Name[] = ("William", "Afton");
          
       
 
@@ -14,6 +14,7 @@ public class Account {
          
       }
 }
+
 
 
 
