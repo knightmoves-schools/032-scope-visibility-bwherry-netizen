@@ -8,9 +8,10 @@ public class Account {
 
       private string ChangeName ()
       {
-           string Name[] = new Name "Dave";
+           Name[] = new Name "Dave";
 
             return Name;
          
       }
 }
+
