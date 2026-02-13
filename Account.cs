@@ -6,7 +6,7 @@ public class Account {
          
       
 
-      private string ChangeName ()
+      private string ChangeName : Account ()
       {
          Name = "Dave";
          
@@ -18,5 +18,6 @@ public class Account {
 
    
 }
+
 
 
