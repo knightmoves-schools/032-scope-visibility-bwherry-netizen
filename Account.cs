@@ -2,22 +2,15 @@
 
 public class Account {
 
-      public string Name = "William";
+      public string Name;
          
       
 
-      private string ChangeName : Account ()
+      private string ChangeName ()
       {
-         Name = "Dave";
-         
-         return Name;
+        string Name = new Name "Dave";
+
+            return Name;
          
       }
-
-
-
-   
 }
-
-
-
