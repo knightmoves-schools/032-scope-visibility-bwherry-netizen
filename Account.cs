@@ -8,12 +8,13 @@ public class Account {
 
       private string ChangeName ()
       {
-           Name[] = new Name[]  ("Dave", "Miller");
+           string[] Name = new Name[]  ("Dave", "Miller");
 
             return Name;
          
       }
 }
+
 
 
 
