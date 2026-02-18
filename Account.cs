@@ -1,19 +1,16 @@
-﻿namespace knightmoves;
+namespace knightmoves;
 
-public class Account {
+public class Account
+{
+    // Public class-level string variable
+    public string Name = "William Afton";
 
-      public string Name[] = ("William", "Afton");
-         
-      
-
-      private string ChangeName ()
-      {
-            Name[] = ("Dave", "Miller");
-
-            return Name;
-         
-      }
+    // Private method that changes the name
+    private string ChangeName(string newName)
+    {
+        Name = newName;
+        return Name;
+    }
 }
-
 
 
